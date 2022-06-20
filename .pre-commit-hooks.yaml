@@ -1,0 +1,12 @@
+- id: tbls-diff
+  name: tbls diff
+  description: "Check database documentation"
+  entry: tbls diff
+  pass_filenames: false
+  language: system
+- id: tbls-lint
+  name: tbls lint
+  description: "Lint database"
+  entry: tbls lint
+  pass_filenames: false
+  language: system
