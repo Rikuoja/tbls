@@ -1,0 +1,14 @@
+- id: tbls-diff
+  name: tbls diff
+  description: "Check database documentation"
+  entry: go run main.go
+  pass_filenames: false
+  always_run: true
+  language: golang
+- id: tbls-lint
+  name: tbls lint
+  description: "Lint database"
+  entry: go run main.go
+  pass_filenames: false
+  always_run: true
+  language: golang
